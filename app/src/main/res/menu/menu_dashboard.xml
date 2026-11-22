@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : EduPulse AI
+  Fichier : menu_dashboard.xml
+  Description : Menu d'options de la Toolbar (Profil, À propos, Déconnexion)
+  Responsable : HAFSA AJABBOUNE
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_profil"
+        android:title="Profil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_apropos"
+        android:title="À propos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_deconnexion"
+        android:title="Déconnexion"
+        app:showAsAction="never" />
+</menu>
