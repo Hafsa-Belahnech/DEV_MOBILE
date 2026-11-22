@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Projet : EduPulse AI
+ Fichier : ic_logo.xml
+ Description : Logo vectoriel (cercle + courbe de pouls)
+ Responsable: HAFSA BELAHNECH
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M48,48m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+    <path
+        android:pathData="M20,50 L36,50 L44,30 L54,68 L62,50 L76,50"
+        android:strokeColor="@color/white"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="6" />
+</vector>

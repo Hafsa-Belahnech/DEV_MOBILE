@@ -1,9 +1,17 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.EduPulse_AI" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Projet : EduPulse AI
+ Fichier : themes.xml
+ Description : Thème cohérent appliqué à toute l'application (sans ActionBar : chaque écran utilise une Toolbar)
+ Responsable : HAFSA BELAHNECH
 
-    <style name="Theme.EduPulse_AI" parent="Base.Theme.EduPulse_AI" />
+-->
+<resources>
+    <style name="Theme.EduPulseAI" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
 </resources>

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EduPulse_AI">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DashboardActivity" android:exported="false" />
+        <activity android:name=".ModulesActivity" android:exported="false" />
+        <activity android:name=".SuiviActivity" android:exported="false" />
+        <activity android:name=".ConseilsActivity" android:exported="false" />
     </application>
 
 </manifest>

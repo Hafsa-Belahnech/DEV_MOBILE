@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+ Projet : EduPulse AI
+ Fichier : colors.xml
+ Description : Palette de couleurs commune à toute l'application
+ Responsable : HAFSA BELAHNECH
+
+-->
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#3949AB</color>
+    <color name="primary_dark">#283593</color>
+    <color name="accent">#00BFA5</color>
+    <color name="background">#F5F7FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="stroke">#CFD8DC</color>
+    <color name="error">#D32F2F</color>
+
+    <!-- Niveaux de vigilance (utilisés par les autres écrans) -->
+    <color name="vigilance_low">#2E7D32</color>
+    <color name="vigilance_medium">#F9A825</color>
+    <color name="vigilance_high">#C62828</color>
 </resources>

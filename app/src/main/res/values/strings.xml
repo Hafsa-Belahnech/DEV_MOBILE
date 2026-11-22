@@ -1,3 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Projet : EduPulse AI
+ Fichier : strings.xml
+ Description : Textes centralisés de l'application (chaque membre ajoute ses chaînes dans sa section)
+ Responsable : HAFSA BELAHNECH
+
+-->
 <resources>
-    <string name="app_name">EduPulse_AI</string>
+    <string name="app_name">EduPulse AI</string>
+
+    <!-- ===== Membre 1 : LoginActivity ===== -->
+    <string name="login_subtitle">Votre assistant pour réussir vos études</string>
+    <string name="login_title">Connexion</string>
+    <string name="hint_username">Identifiant</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="label_profile">Profil</string>
+    <string name="role_student">Étudiant</string>
+    <string name="role_teacher">Enseignant</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="logo_description">Logo EduPulse AI</string>
+    <string name="error_username_empty">Veuillez saisir votre identifiant</string>
+    <string name="error_password_empty">Veuillez saisir votre mot de passe</string>
+    <string name="error_credentials">Identifiant ou mot de passe incorrect</string>
+    <string name="error_role_mismatch">Le profil choisi ne correspond pas à ce compte</string>
+    <string name="demo_accounts">Comptes de test : etudiant / 1234 — prof / 1234</string>
+
+    <!-- ===== Membre 2 : DashboardActivity (à compléter) ===== -->
+    <!-- ===== Membre 3 : ModulesActivity (à compléter) ===== -->
+    <!-- ===== Membre 4 : SuiviActivity (à compléter) ===== -->
+    <!-- ===== Membre 5 : ConseilsActivity (à compléter) ===== -->
 </resources>
