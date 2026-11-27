@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3F51B5"
+        app:title="Conseils et soutien"
+        app:titleTextColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvModule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Module : Général"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVigilance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Vigilance : moyen"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Conseils d'accompagnement"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- ListView alimentée par un ArrayAdapter -->
+            <ListView
+                android:id="@+id/listConseils"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:background="#E8EAF6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Comment vous sentez-vous ?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgRessenti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbBien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Je me sens bien" />
+
+                <RadioButton
+                    android:id="@+id/rbMoyen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Je me sens un peu perdu(e)" />
+
+                <RadioButton
+                    android:id="@+id/rbDifficile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Je suis en grande difficulté" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Mes difficultés"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cbComprehension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compréhension du cours" />
+
+            <CheckBox
+                android:id="@+id/cbTemps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manque de temps" />
+
+            <CheckBox
+                android:id="@+id/cbMotivation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manque de motivation" />
+
+            <CheckBox
+                android:id="@+id/cbOrganisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organisation / méthode de travail" />
+
+            <!-- Deux boutons côte à côte avec layout_weight -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnRetour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="4dp"
+                    android:text="Retour" />
+
+                <Button
+                    android:id="@+id/btnEnvoyer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="4dp"
+                    android:text="Envoyer la demande" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
